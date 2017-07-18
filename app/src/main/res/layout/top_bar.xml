@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="30dp"
+    android:padding="5dp">
+
+    <!-- Left -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/operator"
+        android:id="@+id/operator" />
+
+    <!-- right -->
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+
+        android:id="@+id/battery"
+        android:src="@mipmap/battery_medium_plus" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_toStartOf="@+id/battery"
+        android:layout_centerVertical="true"
+
+        android:id="@+id/batteryPercent"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/battery_percent" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+
+        android:layout_toStartOf="@+id/batteryPercent"
+
+        android:id="@+id/networkBar"
+        android:src="@mipmap/network_bar_full" />
+
+</RelativeLayout>

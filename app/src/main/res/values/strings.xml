@@ -3,4 +3,10 @@
     <string name="app_name">Phone Found Game</string>
     <string name="title_activity_lock_screen">LockScreen</string>
 
+    <string name="operator">My Operator</string>
+    <string name="battery_percent">32%</string>
+    <string name="hour">23:10</string>
+    <string name="date">mar. 18 juillet</string>
+    <string name="to_unlock">To unlock, slide !</string>
+
 </resources>
