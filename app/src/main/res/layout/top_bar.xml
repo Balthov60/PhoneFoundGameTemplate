@@ -1,7 +1,9 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="RelativeOverlap"
+
     android:layout_width="match_parent"
-    android:layout_height="30dp"
-    android:padding="5dp">
+    android:layout_height="@dimen/topBarHeight" >
 
     <!-- Left -->
 
@@ -13,40 +15,38 @@
         android:layout_alignParentTop="true"
         android:layout_centerVertical="true"
 
-        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/operator"
+        android:textColor="@color/foreground"
         android:text="@string/operator"
-        android:id="@+id/operator" />
+        android:textSize="@dimen/topBarTextSize" />
 
     <!-- right -->
-
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentTop="true"
-
-        android:id="@+id/battery"
-        android:src="@mipmap/battery_medium_plus" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/topBarMargin"
+        android:layout_marginRight="@dimen/topBarMargin"
 
-        android:layout_toStartOf="@+id/battery"
         android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
 
         android:id="@+id/batteryPercent"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="@string/battery_percent" />
+        android:textColor="@color/foreground"
+        android:text="@string/battery_percent"
+        android:textSize="@dimen/topBarTextSize" />
 
     <ImageView
-        android:layout_width="wrap_content"
+        android:layout_width="@dimen/topBarHeight"
         android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/topBarMargin"
+        android:layout_marginRight="@dimen/topBarMargin"
 
         android:layout_toStartOf="@+id/batteryPercent"
+        android:layout_centerVertical="true"
 
         android:id="@+id/networkBar"
-        android:src="@mipmap/network_bar_full" />
+        android:src="@drawable/network_white"
+        android:contentDescription="@string/networkBarContentDescription"/>
 
 </RelativeLayout>
