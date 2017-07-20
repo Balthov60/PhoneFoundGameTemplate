@@ -6,10 +6,13 @@
     <dimen name="topBarHeight">25dp</dimen>
 
     <dimen name="basicScreenPadding">5dp</dimen>
-    <dimen name="largeText">50sp</dimen>
+    <dimen name="extraLargeText">50sp</dimen>
+    <dimen name="largeText">35sp</dimen>
     <dimen name="mediumText">20sp</dimen>
 
     <dimen name="iconMargin">5dp</dimen>
     <dimen name="iconTextSize">15sp</dimen>
+
+    <dimen name="meteoTimePadding">20dp</dimen>
 
 </resources>

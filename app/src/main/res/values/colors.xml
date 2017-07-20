@@ -3,5 +3,6 @@
 
     <color name="foreground">#FFFFFF</color>
     <color name="transparent">#00000000</color>
+    <color name="meteoTimeColor">#77000000</color>
 
 </resources>

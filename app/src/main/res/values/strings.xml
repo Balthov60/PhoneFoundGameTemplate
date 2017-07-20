@@ -17,4 +17,8 @@
     <string name="mailIcon">E-Mail</string>
     <string name="messageIcon">Message</string>
 
+    <string name="city">Ma Ville</string>
+    <string name="temperature">23°c</string>
+    <string name="meteoContentDescription">Meteo Status</string>
+
 </resources>
