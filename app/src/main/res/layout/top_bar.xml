@@ -1,4 +1,5 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     tools:ignore="RelativeOverlap"
 
@@ -16,8 +17,8 @@
         android:layout_centerVertical="true"
 
         android:id="@+id/operator"
-        android:textColor="@color/foreground"
         android:text="@string/operator"
+        android:textColor="@color/foreground"
         android:textSize="@dimen/topBarTextSize" />
 
     <!-- right -->
@@ -32,8 +33,8 @@
         android:layout_alignParentEnd="true"
 
         android:id="@+id/batteryPercent"
+        android:text="@string/batteryPercent"
         android:textColor="@color/foreground"
-        android:text="@string/battery_percent"
         android:textSize="@dimen/topBarTextSize" />
 
     <ImageView

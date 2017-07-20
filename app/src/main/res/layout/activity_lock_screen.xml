@@ -1,11 +1,8 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
 
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:padding="@dimen/basicScreenPadding"
-
-    android:background="@drawable/background"
+    style="@style/HomePages"
     tools:context="fr.heavenproject.phonefoundgame.LockScreen">
 
     <include layout="@layout/top_bar" />
@@ -58,7 +55,7 @@
         android:layout_toStartOf="@+id/camera"
 
         android:id="@+id/toUnlock"
-        android:text="@string/to_unlock"
+        android:text="@string/toUnlock"
         android:textColor="@color/foreground"
         android:gravity="center" />
 

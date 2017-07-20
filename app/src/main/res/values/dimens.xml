@@ -9,4 +9,7 @@
     <dimen name="largeText">50sp</dimen>
     <dimen name="mediumText">20sp</dimen>
 
+    <dimen name="iconMargin">5dp</dimen>
+    <dimen name="iconTextSize">15sp</dimen>
+
 </resources>

@@ -1,128 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
     android:orientation="horizontal"
     android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:baselineAligned="false">
+    android:layout_height="wrap_content" >
 
-    <RelativeLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <Button style="@style/MenuIcon"
+        android:id="@+id/phone"
+        android:text="@string/phoneIcon"
+        android:drawableTop="@mipmap/phone_launcher" />
 
-        android:layout_weight="1"
-        android:layout_margin="5dp">
+    <Button style="@style/MenuIcon"
+        android:id="@+id/contactText"
+        android:text="@string/contactIcon"
+        android:drawableTop="@mipmap/contact_launcher" />
 
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+    <Button style="@style/MenuIcon"
+        android:id="@+id/messageText"
+        android:text="@string/messageIcon"
+        android:drawableTop="@mipmap/message_launcher" />
 
-            android:layout_centerHorizontal="true"
-
-            android:id="@+id/phoneIcon"
-            android:src="@mipmap/phone_launcher" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-
-            android:layout_below="@+id/phoneIcon"
-            android:layout_centerHorizontal="true"
-
-            android:id="@+id/phoneText"
-            android:text="Phone"
-            android:textColor="#FFFFFF"
-            android:textSize="20sp"/>
-
-    </RelativeLayout>
-
-    <RelativeLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-
-        android:layout_weight="1"
-        android:layout_margin="5dp">
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-
-            android:layout_centerHorizontal="true"
-
-            android:id="@+id/contactIcon"
-            android:src="@mipmap/contact_launcher" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-
-            android:layout_below="@+id/contactIcon"
-            android:layout_centerHorizontal="true"
-
-            android:id="@+id/contactText"
-            android:text="Contact"
-            android:textColor="#FFFFFF"
-            android:textSize="20sp"/>
-
-    </RelativeLayout>
-
-    <RelativeLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-
-        android:layout_weight="1"
-        android:layout_margin="5dp">
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-
-            android:layout_centerHorizontal="true"
-
-            android:id="@+id/messageIcon"
-            android:src="@mipmap/message_launcher" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-
-            android:layout_below="@+id/messageIcon"
-            android:layout_centerHorizontal="true"
-
-            android:id="@+id/messageText"
-            android:text="Message"
-            android:textColor="#FFFFFF"
-            android:textSize="20sp"/>
-
-    </RelativeLayout>
-
-    <RelativeLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-
-        android:layout_weight="1"
-        android:layout_margin="5dp">
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-
-            android:layout_centerHorizontal="true"
-
-            android:id="@+id/mailIcon"
-            android:src="@mipmap/mail_launcher"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-
-            android:layout_below="@+id/mailIcon"
-            android:layout_centerHorizontal="true"
-
-            android:id="@+id/mailText"
-            android:text="Mail"
-            android:textColor="#FFFFFF"
-            android:textSize="20sp"/>
-
-    </RelativeLayout>
+    <Button style="@style/MenuIcon"
+        android:id="@+id/mailText"
+        android:text="@string/mailIcon"
+        android:drawableTop="@mipmap/mail_launcher" />
 
 </LinearLayout>
