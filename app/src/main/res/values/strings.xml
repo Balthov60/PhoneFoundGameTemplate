@@ -2,6 +2,7 @@
 
     <string name="appName">Phone Found Game</string>
     <string name="titleActivityLockScreen">LockScreen</string>
+    <string name="titleActivityMainScreen">MainScreen</string>
 
     <string name="operator">My Operator</string>
     <string name="batteryPercent">32%</string>

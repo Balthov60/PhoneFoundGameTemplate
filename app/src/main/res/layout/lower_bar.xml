@@ -4,26 +4,30 @@
 
     android:orientation="horizontal"
     android:layout_width="wrap_content"
-    android:layout_height="wrap_content" >
+    android:layout_height="wrap_content">
 
     <Button style="@style/MenuIcon"
         android:id="@+id/phone"
         android:text="@string/phoneIcon"
-        android:drawableTop="@mipmap/phone_launcher" />
+        android:drawableTop="@mipmap/phone_launcher"
+        android:onClick="onLowerBarClick" />
 
     <Button style="@style/MenuIcon"
-        android:id="@+id/contactText"
+        android:id="@+id/contact"
         android:text="@string/contactIcon"
-        android:drawableTop="@mipmap/contact_launcher" />
+        android:drawableTop="@mipmap/contact_launcher"
+        android:onClick="onLowerBarClick" />
 
     <Button style="@style/MenuIcon"
-        android:id="@+id/messageText"
+        android:id="@+id/message"
         android:text="@string/messageIcon"
-        android:drawableTop="@mipmap/message_launcher" />
+        android:drawableTop="@mipmap/message_launcher"
+        android:onClick="onLowerBarClick" />
 
     <Button style="@style/MenuIcon"
-        android:id="@+id/mailText"
+        android:id="@+id/mail"
         android:text="@string/mailIcon"
-        android:drawableTop="@mipmap/mail_launcher" />
+        android:drawableTop="@mipmap/mail_launcher"
+        android:onClick="onLowerBarClick" />
 
 </LinearLayout>
